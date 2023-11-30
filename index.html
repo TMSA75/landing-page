@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="component.css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!--Topbar-->
+    <div class="top-bar">
+      <img class="h-6 ml-5" src="img/d-libro-darkmode-beta.svg" />
+      <div class="ml-auto mr-2 flex align-items gap-2">
+        <a href="#"
+          ><img class="h-7" src="img/mode-toggle-change-to-light.svg"
+        /></a>
+        <a
+          href="#"
+          class="h-7 flex justify-center align-items bg-white py-auto px-auto text-center w-20 m-auto rounded text-blue-500 border-solid border-blue-500 border-2"
+        >
+          Log in</a
+        >
+        <a
+          href="#"
+          class="h-7 flex justify-center align-items bg-blue-500 py-auto px-auto text-center w-20 m-auto rounded text-white border-solid border-blue-500 border-2"
+        >
+          Sign up</a
+        >
+      </div>
+    </div>
+    <!--Main Cover-->
+    <div
+      class="relative flex flex-col justify-around sm:flex-row text-white pb-20 w-full"
+      style="background: linear-gradient(122deg, #1e065d 0%, #294199 85.38%)"
+    >
+      <div class="flex flex-col sm:w-6/12 justify-center gap-1 pb-20">
+        <img
+          src="img/d-libro-darkmode-beta.svg"
+          class="w-20 sm:w-40 my-16 mx-8"
+        />
+        <h1 class="text-3xl font-bold mx-8">
+          Digital Book Library for Web Skill Training
+        </h1>
+        <p class="text-xl mx-8 my-8">
+          From beginner to master of Web design, coding, infrastructure
+          operation, business development and marketing.
+        </p>
+        <div class="flex justify-around">
+          <div class="hidden sm:flex sm:w-6/12 justify-center">
+            <img
+              src="img/digital-book-image.svg"
+              class="w-20 sm:w-40 my-16 mx-8"
+            />
+          </div>
+          <div class="flex flex-col sm:w-6/12 justify-center gap-1 pr-4">
+            <a
+              href="#"
+              class="py-1 px-4 text-center w-60 rounded text-white font-bold flex justify-around align-items"
+              style="
+                background: linear-gradient(
+                  88deg,
+                  #004cb6 -44.71%,
+                  #009af9 100%
+                );
+              "
+            >
+              Sign up for free trial</a
+            >
+            <a
+              href="#"
+              class="bg-white hover:bg-slate-100 py-1 px-4 text-center w-60 rounded text-slate-700 font-bold flex justify-around align-items"
+            >
+              <img src="img/google_logo.svg" class="w-4 sm:w-6" /> Sign up with
+              Google</a
+            >
+            <a
+              href="#"
+              class="bg-white hover:bg-slate-100 py-1 px-4 text-center w-60 rounded text-slate-700 font-bold flex justify-around align-items"
+            >
+              <img src="img/github.svg" class="w-6" /> Sign up with GitHub</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="flex sm:w-6/12 justify-center p-4">
+        <img
+          class="w-full sm:w-4/5"
+          src="img/embedded-video.svg"
+          style="filter: drop-shadow(0px 10px 100px rgba(0, 255, 224, 0.5))"
+        />
+      </div>
+    </div>
+    <!--What you can learn-->
+    <div
+      class="relative flex flex-col justify-center w-full"
+      style="background: linear-gradient(122deg, #11003d 0%, #001255 85.38%)"
+    >
+      <h2 class="text-3xl font-bold mx-auto my-20">What you can learn</h2>
+      <div class="flex flex-col justify-center">
+        <div class="flex justify-around flex-wrap gap-4">
+          <div class="flex flex-col justify-center w-20 text-center">
+            <img class="w-20" src="img/web-design.svg" /><span>Web Design</span>
+          </div>
+          <div class="flex flex-col justify-center w-20 text-center">
+            <img class="w-20" src="img/frontend-coding.svg" /><span
+              >Front-end Coding</span
+            >
+          </div>
+          <div class="flex flex-col justify-center w-20 text-center">
+            <img class="w-20" src="img/backend-coding.svg" /><span
+              >Back-end Coding</span
+            >
+          </div>
+          <div class="flex flex-col justify-center w-20 text-center">
+            <img class="w-20" src="img/web-infrastructure.svg" /><span
+              >Web Infrastructure</span
+            >
+          </div>
+          <div class="flex flex-col justify-center w-20 text-center">
+            <img class="w-20" src="img/web-marketing.svg" /><span
+              >Web Marketing</span
+            >
+          </div>
+        </div>
+        <div class="p-1 m-4 bg-blue-100 text-blue-700 text-center font-bold">
+          Complete Web Basic Knowledge
+        </div>
+      </div>
+    </div>
+    <!--Frequently observed learning challenges-->
+    <div
+      class="relative flex flex-col justify-center items-center min-w-full mt-64 lg:mt-80 lg:px-40 xl:px-64 text-xl lg:text-2xl"
+      style="background: linear-gradient(122deg, #293b93 0%, #001255 85.38%)"
+    >
+      <h2 class="text-3xl font-bold mx-auto my-20 text-center">
+        Frequently observed learning challenges
+      </h2>
+
+      <div class="flex flex-col sm:flex-row justify-around items-center">
+        <div class="w-80 m-4 sm:basis-6/12">
+          <span class="font-bold text-2xl">Video Tutorials</span>
+          <ul class="ml-8 list-disc">
+            <li>
+              <span class="font-light"
+                ><span class="font-bold">Too fast</span> to follow
+                <span class="font-bold">for practicing</span></span
+              >
+            </li>
+            <li>
+              <span class="font-light"
+                ><span class="font-bold"
+                  >Difficult finding the right frame</span
+                >
+                to replay the part you want...</span
+              >
+            </li>
+            <li>
+              <span class="font-light">...not good for reviewing</span>
+            </li>
+          </ul>
+        </div>
+        <div class="flex sm:basis-6/12 justify-center">
+          <img class="w-full" src="img/video-tutorials.svg" />
+        </div>
+      </div>
+
+      <div class="flex flex-col sm:flex-row justify-around items-center">
+        <div class="w-80 m-4 sm:basis-6/12">
+          <span class="font-bold text-2xl">Books</span>
+          <ul class="ml-8 list-disc">
+            <li>
+              <span class="font-light">Difficult to find right books</span>
+            </li>
+            <li>
+              <span class="font-light"
+                >You
+                <span class="font-bold">may not get tangible outcome</span> in
+                the end after long-hour reading</span
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="flex sm:basis-6/12 justify-center">
+          <img class="w-full" src="img/books.svg" />
+        </div>
+      </div>
+
+      <div class="flex flex-col sm:flex-row justify-around items-center">
+        <div class="w-80 m-4 sm:basis-6/12">
+          <span class="font-bold text-2xl">Online Tutorials</span>
+          <ul class="ml-8 list-disc">
+            <li>
+              <span class="font-light"
+                >Often <span class="font-bold">text-heavy</span> and takes time
+                to fully understand key concepts</span
+              >
+            </li>
+            <li>
+              <span class="font-light"
+                >Too
+                <span class="font-bold"
+                  >sophisticated tools take time for setup</span
+                ></span
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="flex sm:basis-6/12 justify-center">
+          <img class="w-full" src="img/online-tutorials.svg" />
+        </div>
+      </div>
+      </div>
+      <!--Why D-Libro?-->
+      <div
+        class="relative flex flex-col justify-center"
+        style="background: linear-gradient(122deg, #11003d 0%, #001255 85.38%)"
+      >
+        <h2 class="text-3xl font-bold mx-auto my-20">Why D-Libro ?</h2>
+        <div class="flex flex-col">
+          <div
+            class="flex flex-col justify-between m-4 sm:m-20 rounded-2xl"
+            style="background-color: #3947b7"
+          >
+            <div>
+              <h3 class="text-3xl font-bold mx-auto my-10 text-center">
+                Rich visual content
+              </h3>
+              <div
+                class="flex flex-col sm:flex-row justify-around items-center"
+              >
+                <div class="w-80 m-4 sm:basis-6/12 text-2xl">
+                  <ul class="ml-8 list-disc">
+                    <li>
+                      <span class="font-light"
+                        ><span class="font-bold">Plenty of illustrations</span> to help improve comprehension and long-term memorization.</span></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="flex sm:basis-6/12 justify-center">
+                  <img class="max-w-xs" src="img/rich-visual-content.svg" />
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="flex flex-col">
+            <div
+              class="flex flex-col justify-between m-4 sm:m-20 rounded-2xl"
+              style="background-color: #3947b7"
+            >
+              <div>
+                <h3 class="text-3xl font-bold mx-auto my-10 text-center">
+                    Output-focused practice material  creating success experience
+                </h3>
+                <div
+                  class="flex flex-col sm:flex-row justify-around items-center"
+                >
+                  <div class="w-80 m-4 sm:basis-6/12 text-2xl">
+                    <ul class="ml-8 list-disc">
+                      <li>
+                        <span class="font-light"
+                          >Each course has <span class="font-bold">hands-on practice materials for beginners</span></span
+                        >
+                      </li>
+                      <li>
+                        <span class="font-light"
+                          >For example, simply copying and pasting code snippets, you will <span class="font-bold">experience the complete web app development journey</span></span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="flex sm:basis-6/12 justify-center">
+                    <img class="max-w-xs" src="img/output-focused-practice-materials.svg" />
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="flex flex-col">
+            <div
+              class="flex flex-col justify-between m-4 sm:m-20 rounded-2xl"
+              style="background-color: #3947b7"
+            >
+              <div>
+                <h3 class="text-3xl font-bold mx-auto my-10 text-center">
+                  Highly Searchable Content
+                </h3>
+                <div
+                  class="flex flex-col sm:flex-row justify-around items-center"
+                >
+                  <div class="w-80 m-4 sm:basis-6/12 text-2xl">
+                    <ul class="ml-8 list-disc">
+                      <li>
+                        <span class="font-light"
+                          ><span class="font-bold">Multi-scroll UI and images</span> help you <span class="font-bold">quickly spot the information</span> you are looking for.</span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="flex sm:basis-6/12 justify-center">
+                    <img class="max-w-xs" src="img/multi-scroll-UI.svg" />
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col sm:flex-row justify-around items-center"
+                >
+                  <div class="w-80 m-4 sm:basis-6/12 text-2xl">
+                    <ul class="ml-8 list-disc">
+                      <li>
+                        <span class="font-light"
+                          >You can also use the <span class="font-bold">search or tag features</span>  to expand your knowledge.</span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="flex sm:basis-6/12 justify-center">
+                    <img class="max-w-xs" src="img/search-and-tags.svg" />
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="flex flex-col">
+            <div
+              class="flex flex-col justify-between m-4 sm:m-20 rounded-2xl"
+              style="background-color: #3947b7"
+            >
+              <div>
+                <h3 class="text-3xl font-bold mx-auto my-10 text-center">
+                    Great for reviewing
+                </h3>
+                <div
+                  class="flex flex-col sm:flex-row justify-around items-center"
+                >
+                  <div class="w-80 m-4 sm:basis-6/12 text-2xl">
+                    <ul class="ml-8 list-disc">
+                      <li>
+                        <span class="font-light"
+                          >You can  <span class="font-bold">bookmark each knowledge topic</span> you want to revisit.</span
+                        >
+                      </li>
+                      <li>
+                        <span class="font-light"
+                          >You can also check your <span class="font-bold">browsing history with images for quick review.</span></span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="flex sm:basis-6/12 justify-center">
+                    <img class="max-w-xs" src="img/bookmark-history.svg" />
+                  </div>
+                </div>
+              </div>
+          </div>
+<!--What you can learn-->
+<div
+class="relative flex flex-col justify-center w-full px-8"
+style="background: linear-gradient(122deg, #11003d 0%, #001255 85.38%)"
+>
+<h2 class="text-3xl font-bold mx-auto my-20">Our Courses</h2>
+<h3 class="text-2xl font-bold my-4">Available Courses</h3>
+<div class="flex flex-col ml-8">
+  <div class="flex flex-wrap gap-4">
+      <img class="w-60 my-8" src="img/HTML-CSS-Introduction.svg" />
+      <img class="w-60 my-8" src="img/Git-GitHub-Introduction.svg" />
+      <img class="w-60 my-8" src="img/Django-Introduction.svg" />
+      <img class="w-60 my-8" src="img/Linux-Introduction.svg" />
+</div>
+</div>
+<h3 class="text-2xl font-bold my-4">Coming Soon</h3>
+<div class="flex flex-col ml-8">
+  <div class="flex flex-wrap gap-4">
+      <img class="w-60 my-8" src="img/Figma-Introduction.svg" />
+      <img class="w-60 my-8" src="img/HTML-CSS-Intermediate.svg" />
+      <img class="w-60 my-8" src="img/Bootstrap-Basics.svg" />
+      <img class="w-60 my-8" src="img/JavaScript-Introduction.svg" />
+</div>
+</div>
+</div>
+
+      <div class="mt-16 mb-4 text-center">&copy; 2023 D-Libro. All Rights Reserved.</div>
+    </div>
+  </body>
+</html>
